@@ -25,17 +25,8 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test.cpp",
-              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\test.cpp",
-              "RelativeDocumentMoniker": "test.cpp",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\test.cpp",
-              "RelativeToolTip": "test.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-16T12:38:23.714Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -43,11 +34,24 @@
               "Title": "Date_Calc.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\Date_Calc.cpp",
               "RelativeDocumentMoniker": "Date_Calc.cpp",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\Date_Calc.cpp*",
-              "RelativeToolTip": "Date_Calc.cpp*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\Date_Calc.cpp",
+              "RelativeToolTip": "Date_Calc.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-16T12:38:13.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-16T12:38:23.714Z",
               "EditorCaption": ""
             },
             {
@@ -58,14 +62,10 @@
               "RelativeDocumentMoniker": "Date_Calc.h",
               "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\Date_Calc\\Date_Calc.h",
               "RelativeToolTip": "Date_Calc.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-16T12:38:00.928Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
