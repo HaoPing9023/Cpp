@@ -36,5 +36,8 @@
     <ClCompile Include="字符回文数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="反转字符串2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
