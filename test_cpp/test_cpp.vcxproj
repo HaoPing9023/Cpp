@@ -128,7 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1到n.cpp" />
-    <ClCompile Include="testcpp.cpp" />
+    <ClCompile Include="字符回文数.cpp" />
+    <ClCompile Include="字符相加.cpp" />
+    <ClCompile Include="日期差值.cpp" />
+    <ClCompile Include="日期累加.cpp" />
+    <ClCompile Include="链表回文.cpp" />
+    <ClCompile Include="链表相交.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

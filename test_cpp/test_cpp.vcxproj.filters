@@ -15,10 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="testcpp.cpp">
+    <ClCompile Include="字符相加.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="1到n.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表回文.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表相交.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="日期差值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="日期累加.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符回文数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
