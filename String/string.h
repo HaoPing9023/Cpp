@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<iostream>
-//#include<string>
+#include<string>
 #include<assert.h>
 using namespace std;
 class String
@@ -77,9 +77,20 @@ public:
 	void insert(size_t pos, char ch);
 	void insert(size_t pos, const char* str);
 	void erase(size_t pos, size_t len = npos);
+
+	size_t find(char ch, size_t pos = 0);
+	size_t find(const char* str, size_t pos = 0);
+
+	String substr(size_t pos = 0, size_t len = npos);
 private:
 	char* _str;
 	size_t _size;
 	size_t _capacity;
 	const static size_t npos;
 };
+bool operator<(const string& s1, const string& s2);
+bool operator<=(const string& s1, const string& s2);
+bool operator>(const string& s1, const string& s2);
+bool operator>=(const string& s1, const string& s2);
+bool operator==(const string& s1, const string& s2);
+bool operator!=(const string& s1, const string& s2);
