@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|solutionrelative:string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|solutionrelative:string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Viisual Studiio\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -25,8 +25,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -40,43 +44,61 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "string.cpp",
-              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.cpp",
-              "RelativeDocumentMoniker": "string.cpp",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.cpp*",
-              "RelativeToolTip": "string.cpp*",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAtwJgAAAAVAAAAAAAAAA==",
+              "Title": "test.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp*",
+              "RelativeToolTip": "test.cpp*",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAcwIIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-22T11:53:00.095Z",
+              "WhenOpened": "2025-11-22T11:53:05.716Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "test.cpp",
-              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
-              "RelativeDocumentMoniker": "test.cpp",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
-              "RelativeToolTip": "test.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-22T11:53:05.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "string.h",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.h",
               "RelativeDocumentMoniker": "string.h",
               "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.h",
               "RelativeToolTip": "string.h",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAqwFMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-22T11:52:52.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "179afe64-34c0-4c61-ae0e-1d84a6760c3c",
+        "Display": 0,
+        "X": 882,
+        "Y": 18,
+        "Width": 1512,
+        "Height": 761,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "string.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.cpp",
+              "RelativeDocumentMoniker": "string.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.cpp",
+              "RelativeToolTip": "string.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-22T11:53:00.095Z",
               "EditorCaption": ""
             }
           ]
