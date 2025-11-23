@@ -4,7 +4,18 @@
 using namespace std;
 class String
 {
+	friend ostream& operator<<(ostream& out, const String& s);
+	friend istream& operator>>(istream& in, String& s);
 public:
+	typedef char* iterator;
+	iterator begin()
+	{
+		return _str;
+	}
+	iterator end()
+	{
+		return _str + _size;
+	}
 	String(const char* str = "")
 	{
 		_size = strlen(str);
@@ -24,7 +35,7 @@ public:
 		String tmp(s._str);
 		swap(tmp);
 	}
-	char* c_str()
+	char* c_str() const
 	{
 		return _str;
 	}
@@ -37,6 +48,12 @@ public:
 	size_t size() const
 	{
 		return _size;
+	}
+	
+	void clear()
+	{
+		_size = 0;
+		_str[0] = '\0';
 	}
 
 	String& operator=(String s)
@@ -59,13 +76,26 @@ public:
 	void insert(const size_t pos, char ch);
 	void insert(const size_t pos, const char* str);
 	void erase(const size_t pos, size_t len = npos);
-	
+
+	size_t find(char ch, size_t pos = 0);
+	size_t find(const char* str, size_t pos = 0);
+	String substr(size_t pos = 0, size_t len = npos);
 private:
 	char* _str;
 	size_t _size;
 	size_t _capacity;
 	static const int npos = -1;
 };
+bool operator<(const String& s1, const String& s2);
+bool operator<=(const String& s1, const String& s2);
+bool operator>(const String& s1, const String& s2);
+bool operator>=(const String& s1, const String& s2);
+bool operator==(const String& s1, const String& s2);
+bool operator!=(const String& s1, const String& s2);
+
+ostream& operator<<(ostream& out, const String& s);
+istream& operator>>(istream& in, String& s);
+
 
 void String::reserve(const size_t n)
 {
@@ -152,6 +182,75 @@ void String::erase(const size_t pos, size_t len)
 	}
 }
 
+size_t String::find(char ch, size_t pos)
+{
+	assert(pos < _size);
+	for (int i = pos; i < _size; ++i)
+	{
+		if (_str[i] == ch) return i;
+	}
+	return npos;
+}
+size_t String::find(const char* str, size_t pos)
+{
+	assert(pos < _size);
+	const char* ptr = strstr(_str + pos, str);
+	if (ptr == nullptr)
+		return npos;
+	return ptr - _str;
+}
+String String::substr(size_t pos, size_t len)
+{
+	assert(pos <= _size);
+	if (len > _size - pos)
+		len = _size - pos;
+	String sub;
+	sub.reserve(len);
+	for (int i = 0; i < len; ++i)
+		sub += _str[pos + i];
+	return sub;
+}
+
+bool operator<(const String& s1, const String& s2) 
+{
+	return strcmp(s1.c_str(), s2.c_str()) < 0;
+}
+bool operator<=(const String& s1, const String& s2)
+{
+	return !(s2 < s1);
+}
+bool operator>(const String& s1, const String& s2)
+{
+	return s2 < s1;
+}
+bool operator>=(const String& s1, const String& s2)
+{
+	return !(s1 < s2);
+}
+bool operator==(const String& s1, const String& s2)
+{
+	return strcmp(s1.c_str(), s2.c_str()) == 0;
+}
+bool operator!=(const String& s1, const String& s2)
+{
+	return !(s1 == s2);
+}
+
+
+ostream& operator<<(ostream& out, const String& s)
+{
+	out << s.c_str() << endl;
+	return out;
+}
+istream& operator>>(istream& in, String& s)
+{
+	in >> s.c_str();
+	return in;
+}
+
+
+
+
 
 
 
@@ -174,7 +273,10 @@ void test02()
 	s1.insert(0, "&&&");
 	s1.insert(5, "&&&");
 	cout << s1.c_str() << endl;
-
+	s1.erase(0, 3);
+	cout << s1.c_str() << endl;
+	s1.erase(5);
+	cout << s1.c_str() << endl;
 }
 int main()
 {

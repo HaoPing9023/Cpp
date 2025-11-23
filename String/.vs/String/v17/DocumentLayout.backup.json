@@ -28,10 +28,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "delete_scalar.cpp",
@@ -43,28 +39,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "test.cpp",
-              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
-              "RelativeDocumentMoniker": "test.cpp",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp*",
-              "RelativeToolTip": "test.cpp*",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAcwIIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-22T11:53:05.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "string.h",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.h",
               "RelativeDocumentMoniker": "string.h",
               "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.h",
               "RelativeToolTip": "string.h",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-22T11:52:52.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp*",
+              "RelativeToolTip": "test.cpp*",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAmwBgBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-22T11:53:05.716Z",
               "EditorCaption": ""
             }
           ]
@@ -77,8 +77,8 @@
       "FloatingWindowState": {
         "Id": "179afe64-34c0-4c61-ae0e-1d84a6760c3c",
         "Display": 0,
-        "X": 882,
-        "Y": 18,
+        "X": 771,
+        "Y": 12,
         "Width": 1512,
         "Height": 761,
         "WindowState": 0
@@ -96,7 +96,7 @@
               "RelativeDocumentMoniker": "string.cpp",
               "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.cpp",
               "RelativeToolTip": "string.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-22T11:53:00.095Z",
               "EditorCaption": ""
