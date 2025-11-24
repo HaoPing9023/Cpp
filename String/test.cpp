@@ -45,16 +45,6 @@ public:
 		_str = nullptr;
 		_size = _capacity = 0;
 	}
-	size_t size() const
-	{
-		return _size;
-	}
-	
-	void clear()
-	{
-		_size = 0;
-		_str[0] = '\0';
-	}
 
 	String& operator=(String s)
 	{
@@ -67,6 +57,18 @@ public:
 		assert(pos <= _size);
 		return _str[pos];
 	}
+
+	size_t size() const
+	{
+		return _size;
+	}
+
+	void clear()
+	{
+		_size = 0;
+		_str[0] = '\0';
+	}
+
 	void reserve(const size_t n);
 	void push_back(char ch);
 	void append(const char* str);

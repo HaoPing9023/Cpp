@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u53CD\u8F6C\u5B57\u7B26\u4E32\u5355\u8BCD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|solutionrelative:\u53CD\u8F6C\u5B57\u7B26\u4E32\u5355\u8BCD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\1\u5230n.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|solutionrelative:1\u5230n.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u53CD\u8F6C\u5B57\u7B26\u4E322.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|solutionrelative:\u53CD\u8F6C\u5B57\u7B26\u4E322.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u65E5\u671F\u5DEE\u503C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|solutionrelative:\u65E5\u671F\u5DEE\u503C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\1\u5230n.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C7BCC254-1FB4-43B0-A034-7BEAE603C1E7}|test_cpp.vcxproj|solutionrelative:1\u5230n.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,6 +47,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-23T09:58:57.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u53CD\u8F6C\u5B57\u7B26\u4E32\u5355\u8BCD.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u53CD\u8F6C\u5B57\u7B26\u4E32\u5355\u8BCD.cpp",
+              "RelativeDocumentMoniker": "\u53CD\u8F6C\u5B57\u7B26\u4E32\u5355\u8BCD.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u53CD\u8F6C\u5B57\u7B26\u4E32\u5355\u8BCD.cpp",
+              "RelativeToolTip": "\u53CD\u8F6C\u5B57\u7B26\u4E32\u5355\u8BCD.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-23T09:47:12.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "\u53CD\u8F6C\u5B57\u7B26\u4E322.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u53CD\u8F6C\u5B57\u7B26\u4E322.cpp",
               "RelativeDocumentMoniker": "\u53CD\u8F6C\u5B57\u7B26\u4E322.cpp",
@@ -51,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "\u5B57\u7B26\u56DE\u6587\u6570.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u5B57\u7B26\u56DE\u6587\u6570.cpp",
               "RelativeDocumentMoniker": "\u5B57\u7B26\u56DE\u6587\u6570.cpp",
@@ -67,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "\u65E5\u671F\u7D2F\u52A0.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u65E5\u671F\u7D2F\u52A0.cpp",
               "RelativeDocumentMoniker": "\u65E5\u671F\u7D2F\u52A0.cpp",
@@ -79,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "\u65E5\u671F\u5DEE\u503C.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u65E5\u671F\u5DEE\u503C.cpp",
               "RelativeDocumentMoniker": "\u65E5\u671F\u5DEE\u503C.cpp",
@@ -91,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "1\u5230n.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\1\u5230n.cpp",
               "RelativeDocumentMoniker": "1\u5230n.cpp",
@@ -99,11 +133,12 @@
               "RelativeToolTip": "1\u5230n.cpp",
               "ViewState": "AgIAABsAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-18T15:14:47.287Z"
+              "WhenOpened": "2025-11-18T15:14:47.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "\u5B57\u7B26\u76F8\u52A0.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\test_cpp\\\u5B57\u7B26\u76F8\u52A0.cpp",
               "RelativeDocumentMoniker": "\u5B57\u7B26\u76F8\u52A0.cpp",

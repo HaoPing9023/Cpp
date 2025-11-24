@@ -131,6 +131,7 @@
     <ClCompile Include="test.cpp" />
     <ClCompile Include="反转字符串2.cpp" />
     <ClCompile Include="反转字符串单词.cpp" />
+    <ClCompile Include="只出现一次的数字3.cpp" />
     <ClCompile Include="字符回文数.cpp" />
     <ClCompile Include="字符相加.cpp" />
     <ClCompile Include="日期差值.cpp" />
