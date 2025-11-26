@@ -18,17 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "vector.h",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h",
               "RelativeDocumentMoniker": "vector.h",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h*",
-              "RelativeToolTip": "vector.h*",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h",
+              "RelativeToolTip": "vector.h",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAAAE8BAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-24T15:12:56.639Z",
               "EditorCaption": ""
@@ -41,14 +45,10 @@
               "RelativeDocumentMoniker": "test.cpp",
               "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\test.cpp",
               "RelativeToolTip": "test.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-24T15:13:06.177Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
