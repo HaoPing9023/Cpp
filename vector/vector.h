@@ -3,7 +3,6 @@
 #include<vector>
 #include<assert.h>
 using namespace std;
-
 namespace my {
 	template<class T>
 	class vector {

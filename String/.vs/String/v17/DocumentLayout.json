@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|solutionrelative:test02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFCF2F0F-1F32-4D2C-8A9B-41049C9D0D5D}|String.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,11 +25,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "test02.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test02.cpp",
+              "RelativeDocumentMoniker": "test02.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test02.cpp",
+              "RelativeToolTip": "test02.cpp",
+              "ViewState": "AgIAALcAAAAAAAAAAAAIwMEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-26T08:20:18.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "delete_scalar.cpp",
               "DocumentMoniker": "D:\\Viisual Studiio\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
               "ToolTip": "D:\\Viisual Studiio\\VC\\Tools\\MSVC\\14.41.34120\\crt\\src\\vcruntime\\delete_scalar.cpp",
@@ -36,6 +57,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "test.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-22T11:53:05.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "string.h",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\string.h",
               "RelativeDocumentMoniker": "string.h",
@@ -44,23 +78,6 @@
               "ViewState": "AgIAAFEAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-22T11:52:52.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "test.cpp",
-              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
-              "RelativeDocumentMoniker": "test.cpp",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\String\\test.cpp",
-              "RelativeToolTip": "test.cpp",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswBsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-22T11:53:05.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
