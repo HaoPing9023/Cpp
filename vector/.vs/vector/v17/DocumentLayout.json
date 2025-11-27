@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BB15FE8E-5A06-4548-ABB6-671074EAE14B}|vector.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\revise.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB15FE8E-5A06-4548-ABB6-671074EAE14B}|vector.vcxproj|solutionrelative:revise.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB15FE8E-5A06-4548-ABB6-671074EAE14B}|vector.vcxproj|E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB15FE8E-5A06-4548-ABB6-671074EAE14B}|vector.vcxproj|solutionrelative:vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,36 +22,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "vector.h",
-              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h",
-              "RelativeDocumentMoniker": "vector.h",
-              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h",
-              "RelativeToolTip": "vector.h",
-              "ViewState": "AgIAANgAAAAAAAAAAAAAAPoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-24T15:12:56.639Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "revise.cpp",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\revise.cpp",
+              "RelativeDocumentMoniker": "revise.cpp",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\revise.cpp",
+              "RelativeToolTip": "revise.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAuwKsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-27T09:23:06.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "test.cpp",
               "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\test.cpp",
               "RelativeDocumentMoniker": "test.cpp",
               "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\test.cpp",
               "RelativeToolTip": "test.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-24T15:13:06.177Z"
+              "WhenOpened": "2025-11-24T15:13:06.177Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "00c929fe-0f6f-440e-95db-75be884388d7",
+        "Display": 0,
+        "X": 761,
+        "Y": 143,
+        "Width": 1512,
+        "Height": 787,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vector.h",
+              "DocumentMoniker": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h",
+              "RelativeDocumentMoniker": "vector.h",
+              "ToolTip": "E:\\MDD\\C\u002B\u002B\\Cpp_Test\\vector\\vector.h",
+              "RelativeToolTip": "vector.h",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwJQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-24T15:12:56.639Z",
+              "EditorCaption": ""
             }
           ]
         }
