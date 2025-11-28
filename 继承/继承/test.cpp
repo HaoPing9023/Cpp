@@ -63,7 +63,7 @@ using namespace std;
 //#define CONTAINER std::list
 #define CONTAINER std::deque
 
-//namespace bit
+//namespace my
 //{
 //	//template<class T>
 //	//class vector
@@ -113,7 +113,7 @@ using namespace std;
 //
 //int main()
 //{
-//	bit::stack<int> st;
+//	my::stack<int> st;
 //	st.push(1);
 //	st.push(2);
 //	st.push(3);
@@ -123,7 +123,7 @@ using namespace std;
 //		st.pop();
 //	}
 //
-//	//bit::A<int> aa;
+//	//my::A<int> aa;
 //	//aa.push(1);
 //
 //	return 0;
