@@ -13,6 +13,7 @@ namespace my {
 		list_node<T>* _next;
 		list_node<T>* _prev;
 		
+		//构造链表参数
 		list_node(const T& date = T())
 			:_date(date)
 			,_next(nullptr)
@@ -150,7 +151,7 @@ namespace my {
 			//匿名函数
 			//return iterator(_head->_next);
 
-			//隐式转换
+			//隐式转换 单参数构造支持隐式类型转换
 			return _head->_next;
 		}
 		iterator end()
