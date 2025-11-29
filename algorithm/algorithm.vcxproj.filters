@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="原地删除重复元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组中出现次数超过一半的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="电话号码的字母组合.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈的压入、弹出序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拼接平方数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS扫雷.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="01背包.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最长上升子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最长公共子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="差分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS-N皇后问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分-冶炼金属.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS-飞机降落.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="差分-棋盘.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="质因子分解-双子数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="贪心+前缀和+排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="高精度-R格式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="前缀和-拔河.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="前缀和与差分-商品管理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="前缀和-挖矿.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划-砍柴.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra求最短路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

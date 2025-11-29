@@ -1,9 +1,29 @@
-# 默认忽略所有东西
-*
+# ---- 忽略 VS 自己的缓存 ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.opendb
 
-# 但是保留这些：
-!*.c
-!*.cpp
-!*.h
-!.gitignore
-!LICENSE
+# ---- 忽略编译输出目录 ----
+Debug/
+Release/
+x64/
+x86/
+ipch/
+
+# ---- 忽略常见编译产物 ----
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+*.tmp
+*.cache
+*.exe
+
+# 其他你不想跟踪的临时文件...
