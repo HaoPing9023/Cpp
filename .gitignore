@@ -6,6 +6,10 @@
 *.ilk
 *.pdb
 *.pch
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
 
 # Visual Studio 生成的东西
 .vs/
