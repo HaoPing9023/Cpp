@@ -1,3 +1,0 @@
-﻿  字符回文数.cpp
-E:\MDD\C++\Cpp_Test\test_cpp\字符回文数.cpp(20,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  test_cpp.vcxproj -> E:\MDD\C++\Cpp_Test\test_cpp\x64\Debug\test_cpp.exe

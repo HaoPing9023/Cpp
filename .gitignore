@@ -1,24 +1,9 @@
-# 可执行文件 / 编译产物
-*.exe
-*.obj
-*.o
-*.log
-*.ilk
-*.pdb
-*.pch
-*.sln
-*.vcxproj
-*.vcxproj.filters
+# 默认忽略所有东西
+*
 
-
-# Visual Studio 生成的东西
-.vs/
-Debug/
-Release/
-x64/
-ipch/
-
-# 其他中间文件
-*.tmp
-*.user
-*.suo
+# 但是保留这些：
+!*.c
+!*.cpp
+!*.h
+!.gitignore
+!LICENSE
