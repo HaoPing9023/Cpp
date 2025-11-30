@@ -84,5 +84,8 @@
     <ClCompile Include="Dijkstra求最短路.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="进制乘法表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

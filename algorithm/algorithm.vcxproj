@@ -149,6 +149,7 @@
     <ClCompile Include="电话号码的字母组合.cpp" />
     <ClCompile Include="质因子分解-双子数.cpp" />
     <ClCompile Include="贪心+前缀和+排序.cpp" />
+    <ClCompile Include="进制乘法表.cpp" />
     <ClCompile Include="高精度-R格式.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
