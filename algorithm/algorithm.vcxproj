@@ -133,6 +133,7 @@
     <ClCompile Include="DFS-飞机降落.cpp" />
     <ClCompile Include="Dijkstra求最短路.cpp" />
     <ClCompile Include="二分-冶炼金属.cpp" />
+    <ClCompile Include="刷题统计.cpp" />
     <ClCompile Include="前缀和-拔河.cpp" />
     <ClCompile Include="前缀和-挖矿.cpp" />
     <ClCompile Include="前缀和与差分-商品管理.cpp" />
