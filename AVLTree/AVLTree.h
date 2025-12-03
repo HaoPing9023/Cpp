@@ -93,6 +93,14 @@ public:
 				else if (parent->_bf == -2 || parent->_bf == 2)
 				{
 					//Ðý×ª
+					if (parent->_bf == -2 && cur->_bf == -1)
+					{
+						RotateR(parent);
+					}
+					else if (parent->_bf == 2 && cur->_bf == 1)
+					{
+						RotateL(parent);
+					}
 
 					break;
 				}
@@ -108,10 +116,10 @@ public:
 	{
 		Node* subL = parent->_left;
 		Node* subLR = subL->_right;
-		
+
 		parent->_left = subLR;
 		if (subLR)
-			subLR->_parent = parent;
+			subLR->parent = parent;
 
 		Node* pParent = parent->_parent;
 
@@ -120,27 +128,62 @@ public:
 
 		if (parent == _root)
 		{
-			subL = _root;
+			_root = subL;
 			subL->_parent = nullptr;
 		}
 		else
 		{
 			if (pParent->_left == parent)
 			{
-				pParent->left = subL;
+				pParent->_left = subL;
 			}
 			else
 			{
 				pParent->_right = subL;
 			}
-			
+
 			subL->_parent = pParent;
 		}
-		
+
 		subL->_bf = 0;
 		parent->_bf = 0;
 	}
 
+	void RotateL(Node* parent)
+	{
+		Node* subR = parent->_right;
+		Node* subRL = subR->_left;
+		
+		parent->_right = subRL;
+		if (subRL)
+			subRL->_parent = parent;
+		
+		Node* pParent = parent->_parent;
+		
+		subR->_left = parent;
+		parent->_parent = subR;
+
+		if (pParent == nullptr)
+		{
+			_root = subR;
+			subR->_parent = nullptr;
+		}
+		else
+		{
+			if (pParent->_left == parent)
+			{
+				pParent->_left = subR;
+			}
+			else
+			{
+				pParent->_right = subR;
+			}
+			subR->_parent = pParent;
+		}
+
+		subR->_bf = parent->_bf = 0;
+	}
+	
 
 	void InOrder()
 	{
