@@ -138,6 +138,7 @@
     <ClCompile Include="前缀和-挖矿.cpp" />
     <ClCompile Include="前缀和与差分-商品管理.cpp" />
     <ClCompile Include="动态规划-砍柴.cpp" />
+    <ClCompile Include="好数.cpp" />
     <ClCompile Include="差分-棋盘.cpp" />
     <ClCompile Include="差分.cpp" />
     <ClCompile Include="最长上升子序列.cpp" />

@@ -90,5 +90,8 @@
     <ClCompile Include="刷题统计.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="好数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
