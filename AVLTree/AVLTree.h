@@ -56,76 +56,76 @@ public:
 			{
 				return false;
 			}
+		}
 			
-			cur = new Node(kv);
-			if (parent->_kv.first < kv.first)
+		cur = new Node(kv);
+		if (parent->_kv.first < kv.first)
+		{
+			parent->_right = cur;
+		}
+		else
+		{
+			parent->_left = cur;
+		}
+			
+		//链接父亲节点
+		cur->_parent = parent;
+			
+		// 控制平衡
+		// 更新平衡因子
+		while(parent)
+		{
+			if (parent->_left == cur)
 			{
-				parent->_right = cur;
+				parent->_bf--;
 			}
 			else
 			{
-				parent->_left = cur;
+				parent->_bf++;
 			}
-			
-			//链接父亲节点
-			cur->_parent = parent;
-			
-			// 控制平衡
-			// 更新平衡因子
-			while(parent)
-			{
-				if (parent->_left == cur)
-				{
-					parent->_bf--;
-				}
-				else
-				{
-					parent->_bf++;
-				}
 				
-				if (parent->_bf == 0)
+			if (parent->_bf == 0)
+			{
+				break;
+			}
+			else if (parent->_bf == -1 || parent->_bf == 1)
+			{
+				cur = parent;
+				parent = parent->_parent;
+			}
+			else if (parent->_bf == -2 || parent->_bf == 2)
+			{
+				//旋转
+				if (parent->_bf == -2 && cur->_bf == -1)
 				{
-					break;
+					//右单旋
+					RotateR(parent);
 				}
-				else if (parent->_bf == -1 || parent->_bf == 1)
+				else if (parent->_bf == 2 && cur->_bf == 1)
 				{
-					cur = parent;
-					parent = parent->_parent;
+					//左单旋
+					RotateL(parent);
 				}
-				else if (parent->_bf == -2 || parent->_bf == 2)
+				else if (parent->_bf == -2 && cur->_bf == 1)
 				{
-					//旋转
-					if (parent->_bf == -2 && cur->_bf == -1)
-					{
-						//右单旋
-						RotateR(parent);
-					}
-					else if (parent->_bf == 2 && cur->_bf == 1)
-					{
-						//左单旋
-						RotateL(parent);
-					}
-					else if (parent->_bf == -2 && cur->_bf == 1)
-					{
-						//左右双旋
-						RotateLR(parent);
-					}
-					else if (parent->_bf == 2 && cur->_bf == -1)
-					{
-						//右左双旋
-						RotateRL(parent);
-					}
-					else
-					{
-						assert(false);
-					}
-
-					break;
+					//左右双旋
+					RotateLR(parent);
+				}
+				else if (parent->_bf == 2 && cur->_bf == -1)
+				{
+					//右左双旋
+					RotateRL(parent);
 				}
 				else
 				{
 					assert(false);
 				}
+
+				break;
+			}
+			else
+			{
+				assert(false);
 			}
 		}
 		return true;
@@ -242,8 +242,8 @@ public:
 		Node* subRL = subR->_left;
 		int bf = subRL->_bf;
 
-		RotateR(subR);
-		RotateL(subRL);
+		RotateR(parent->_right);
+		RotateL(parent);
 
 		if (bf == -1)
 		{
@@ -373,5 +373,5 @@ private:
 		//pRoot的左和右如果都是AVL树，则该树一定是AVL树
 		return _IsBalanceTree(root->_left) && _IsBalanceTree(root->_right);
 	}
-	Node* _root;
+	Node* _root = nullptr;
 };

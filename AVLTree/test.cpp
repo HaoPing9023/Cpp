@@ -63,8 +63,8 @@ void TestAVLTree2()
 
 int main()
 {
-	TestAVLTree1();
-	//TestAVLTree2();
+	//TestAVLTree1();
+	TestAVLTree2();
 
 	return 0;
 }
