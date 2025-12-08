@@ -27,19 +27,113 @@ struct RBTreeNode
 	{}
 };
 
+template<class T, class Ref, class Ptr>
+struct RBTreeIterator
+{
+	typedef RBTreeNode<T> Node;
+	typedef RBTreeIterator<T, Ref, Ptr> Self;
+	
+	Node* _node;
+	Node* _root;
+
+	RBTreeIterator(Node* node, Node* root)
+		:_node(node)
+		,_root(root)
+	{}
+
+	Self operator++()
+	{
+		if (_node->_right)
+		{
+			//右不为空，中序下一个访问的节点是右子树的最左(最小)节点
+			Node* min = _node->_right;
+			while (min->_left)
+			{
+				min = min->_left;
+			}
+			_node = min;
+		}
+		else
+		{
+			//右为空，祖先里面孩子是父亲左的那个祖先
+			Node* cur = _node;
+			Node* parent = cur->_parent;
+			while (parent && cur == parent->_right)
+			{
+				cur = parent;
+				parent = cur->_parent;
+			}
+			
+			_node = parent;
+		}
+
+		return *this;
+	}
+	
+	Ref operator*()
+	{
+		return _node->_data;
+	}
+	Ptr operator->()
+	{
+		return &_node->_data;
+	}
+
+	bool operator!=(const Self& s) const
+	{
+		return _node != s._node;
+	}
+	bool operator==(const Self& s) const
+	{
+		return _node == s._node;
+	}
+};
+
 template<class K, class T, class KeyOfT>
 class RBTree
 {
+	typedef RBTreeNode<T> Node;
 public:
-	using Node = RBTreeNode<T>;
+	typedef RBTreeIterator<T, T&, T*> Iterator;
+	typedef RBTreeIterator<T, const T&, const T*> Const_Iterator;
 
-	bool Insert(const T& data)
+	Iterator Begin()
+	{
+		Node* cur = _root;
+		while (cur && cur->_left)
+		{
+			cur = cur->_left;
+		}
+		return Iterator(cur, _root);
+	}
+	
+	Iterator End()
+	{
+		return Iterator(nullptr, _root);
+	}
+
+	Const_Iterator Begin() const
+	{
+		Node* cur = _root;
+		while (cur && cur->_left)
+		{
+			cur = cur->_left;
+		}
+		return Iterator(cur, _root);
+	}
+
+	Const_Iterator End() const
+	{
+		return Iterator(nullptr, _root);
+	}
+	
+	pair<Iterator, bool> Insert(const T& data)
 	{
 		if (_root == nullptr)
 		{
 			_root = new Node(data);
 			_root->_col = BLACK; //根节点必须是黑色
-			return true;
+			return { Iterator(_root, _root),true };
 		}
 
 		KeyOfT kot;
@@ -59,7 +153,7 @@ public:
 			}
 			else
 			{
-				return false; //键已存在，插入失败
+				return {Iterator(cur,_root), false}; //键已存在，插入失败
 			}
 		}
 
@@ -163,7 +257,7 @@ public:
 			}
 		}
 		_root->_col = BLACK; //无论如何，根节点最后必须染黑
-		return true;
+		return { Iterator(cur, _root),true };
 	}
 
 	void RotateR(Node* parent)
@@ -250,7 +344,27 @@ public:
 	{
 		return _Size(_root);
 	}
+	Node* Find(const K& key)
+	{
+		Node* cur = _root;
+		while (cur)
+		{
+			if (cur->_kv.first < key)
+			{
+				cur = cur->_right;
+			}
+			else if (cur->_kv.first > key)
+			{
+				cur = cur->_left;
+			}
+			else
+			{
+				return cur;
+			}
+		}
 
+		return nullptr;
+	}
 
 private:
 

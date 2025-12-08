@@ -13,13 +13,35 @@ namespace my
 				return key;
 			}
 		};
-
 	public:
-		bool insert(const K& key)
+		typedef typename RBTree<K, const K, SetKeyOfT>::Iterator iterator;
+		typedef typename RBTree<K, const K, SetKeyOfT>::Const_Iterator const_iterator;
+
+		iterator begin()
+		{
+			return _t.Begin();
+		}
+		
+		iterator end()
+		{
+			return _t.End();
+		}
+
+		const_iterator begin() const
+		{
+			return _t.Begin();
+		}
+
+		const_iterator end() const
+		{
+			return _t.End();
+		}
+
+		pair<iterator, bool> insert(const K& key)
 		{
 			return _t.Insert(key);
 		}
 	private:
-		RBTree<K, K, SetKeyOfT> _t;
+		RBTree<K, const K, SetKeyOfT> _t;
 	};
 }
