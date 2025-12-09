@@ -69,6 +69,45 @@ struct RBTreeIterator
 
 		return *this;
 	}
+
+	Self operator--()
+	{
+		if (_node == nullptr)  // --end()
+		{
+			// --end()，特殊处理，走到中序最后一个结点，整棵树的最右结点
+			Node* rightMost = _root;
+			while (rightMost && rightMost->_right)
+			{
+				rightMost = rightMost->_right;
+			}
+			_node = rightMost;
+		}
+		else if (_node->_left)
+		{
+			// 左子树不为空，中序左子树最后一个
+			Node* rightMost = _node->_left;
+			while (rightMost->_right)
+			{
+				rightMost = rightMost->_right;
+			}
+			_node = rightMost;
+		}
+		else
+		{
+			// 孩子是父亲右的那个祖先
+			Node* cur = _node;
+			Node* parent = cur->_parent;
+			while (parent && cur == parent->_left)
+			{
+				cur = parent;
+				parent = cur->_parent;
+			}
+			_node = parent;
+		}
+
+		return *this;
+	}
+
 	
 	Ref operator*()
 	{
@@ -158,6 +197,7 @@ public:
 		}
 
 		cur = new Node(data);
+		Node* newnode = cur;
 		cur->_col = RED; //新插入的节点默认是红色
 
 		if (kot(parent->_data) < kot(data))
@@ -257,7 +297,7 @@ public:
 			}
 		}
 		_root->_col = BLACK; //无论如何，根节点最后必须染黑
-		return { Iterator(cur, _root),true };
+		return { Iterator(newnode, _root),true };
 	}
 
 	void RotateR(Node* parent)

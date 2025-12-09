@@ -7,6 +7,17 @@ using namespace std;
 #include"Mymap.h"
 #include"Myset.h"
 
+void Print(const my::set<int>& s)
+{
+	my::set<int>::const_iterator it = s.end();
+	while (it != s.begin())
+	{
+		--it;
+		cout << *it << " ";
+	}
+	cout << endl;
+}
+
 int main()
 {
 	my::set<int> s;
@@ -24,6 +35,13 @@ int main()
 	}
 	cout << endl;
 
+	for (auto& e : s)
+	{
+		cout << e << " ";
+	}
+	cout << endl;
+
+	Print(s);
 
 	my::map<string, string> dict;
 	dict.insert({ "sort", "≈≈–Ú" });
