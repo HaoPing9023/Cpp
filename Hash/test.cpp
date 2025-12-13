@@ -38,7 +38,7 @@ void test02()
 	srand(time(0));
 	for (size_t i = 0; i < N; ++i)
 	{
-		//v.push_back(rand()); // N比较大时，重复值比较多
+		//v.push_back(rand()); // N比较大时 重复值比较多
 		//v.push_back(rand() + i); // 重复值相对少
 		v.push_back(i); // 没有重复，有序
 	}
