@@ -399,7 +399,6 @@ public:
 int main()
 {
 	my::string ret;
-	// ...
 
 	ret = Solution().addStrings("11111111111111111111", "222222222222222222222222222");
 	cout << ret.c_str() << endl;
