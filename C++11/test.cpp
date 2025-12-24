@@ -278,7 +278,6 @@ namespace my
 		//string(string&& s)
 		//{
 		//	cout << "string(string&& s) -- 移动构造" << endl;
-		//	// 转移掠夺你的资源
 		//	swap(s);
 		//}
 
