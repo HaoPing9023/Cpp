@@ -5,16 +5,18 @@
 //你可以按任意顺序返回答案。
 
 #include"Algorithm_150.h"
+
+//哈希表法
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> res;
         for (int i = 0; i < nums.size(); ++i) {
-            auto it = res.find(target - nums[i]);
-            if (it != res.end()) {
+            auto it = res.find(target - nums[i]);       //需要查找相加为target的数
+            if (it != res.end()) {          //所以就找target-nums[i]的数在不在哈希表内
                 return { it->second, i };
             }
-            res[nums[i]] = i;
+            res[nums[i]] = i;          
         }
         return {};
     }
