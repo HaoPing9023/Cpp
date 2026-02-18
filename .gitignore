@@ -25,5 +25,7 @@ ipch/
 *.tmp
 *.cache
 *.exe
+*.vcxproj
+*.vcxproj.filters
+*.sln
 
-# 其他你不想跟踪的临时文件...
